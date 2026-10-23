@@ -495,17 +495,26 @@ img {
   backdrop-filter: blur(4px);
 }
 .thumb-1 {
-  background: linear-gradient(135deg, #3b1c6a, #0d0d17);
+  background: url(assets/project1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .thumb-2 {
-  background: linear-gradient(135deg, #e9ecf5, #c9cee0);
+  background: url(assets/ToDo\ List\ App\ Showcase.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .thumb-2 .project-number {
   color: #12121e;
   background: rgba(255, 255, 255, 0.5);
 }
 .thumb-3 {
-  background: linear-gradient(135deg, #0f1f1a, #173026);
+  background: url(assets/Open\ Book\ List\ App\ Showcase.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .project-body {
   padding: 20px;
@@ -538,7 +547,9 @@ img {
   border: 1px solid var(--border);
   border-radius: 8px;
   color: var(--text-dim);
-  transition: border-color 0.2s ease, color 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 .project-github:hover {
   border-color: var(--purple);
